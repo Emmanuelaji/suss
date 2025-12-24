@@ -1,0 +1,26 @@
+📁 Project Structure
+
+success-unity-schools/
+├── index.html                    # Homepage
+├── about.html                    # About Us page
+├── alumni.html                   # Alumni network page
+├── contact.html                  # Contact page
+├── news-events.html              # News & events page
+├── gallery.html                  # Gallery page
+├── academics/                    # Academic section pages
+│   ├── primary.html
+│   ├── secondary.html
+│   ├── calendar.html
+│   └── examinations.html
+├── assets/
+│   ├── css/
+│   │   └── style.css            # Main stylesheet (with dark mode)
+│   ├── js/
+│   │   └── main.js              # Main JavaScript file
+│   ├── img/                     # Images and media
+│   │   ├── slide1.jpg
+│   │   ├── director.jpg
+│   │   ├── logo.png
+│   │   └── gallery/
+│   └── docs/                    # Documents and downloads
+└── README.md                    # This file
