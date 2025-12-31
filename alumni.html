@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alumni | Success & Unity Schools</title>
+<meta name="description" content="Connect with Success & Unity Schools alumni network. Stay connected with your alma mater and fellow graduates worldwide.">
+<meta name="keywords" content="alumni, graduates, success & unity schools, jos, networking, events">
+<meta name="author" content="Success & Unity Schools">
+
+<!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+<!-- Main CSS File -->
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<!-- Skip Navigation for Accessibility -->
+<a href="#main-content" class="skip-nav">Skip to main content</a>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="btn btn-primary" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Top Bar - Sticky -->
+<div class="top-bar d-none d-lg-block">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center">
+      <div>
+        <a href="tel:+2348073295314"><i class="fas fa-phone me-1"></i> +234 807 329 5314</a>
+        <a href="mailto:info@sussjos.com"><i class="fas fa-envelope me-1"></i> info@sussjos.com</a>
+      </div>
+      <div>
+        <a href="alumni.html"><i class="fas fa-building me-1"></i> Alumni</a>
+        <a href="portal.html"><i class="fas fa-user-circle me-1"></i> Portal</a>
+        <a href="apply.html"><span class="apply-badge">Apply Now</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Main Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="https://pink-solid-aardvark-938.mypinata.cloud/ipfs/bafybeihikjcm7bcl2ivj7u7b63k6w72s3fxvm43clo65j3vusdftxw6uae" alt="Success & Unity School Logo" class="school-logo">
+      <div>
+        <div>Success & Unity</div>
+        <div style="font-size: 1.2rem"><span>School, Jos</span></div>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="academicsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Academics</a>
+          <ul class="dropdown-menu" aria-labelledby="academicsDropdown">
+            <li><a class="dropdown-item" href="primary.html">Primary School</a></li>
+            <li><a class="dropdown-item" href="secondary.html">Secondary School</a></li>
+            <li><a class="dropdown-item" href="calendar.html">Academic Calendar</a></li>
+            <li><a class="dropdown-item" href="examinations.html">Examinations</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="news-events.html">News & Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link active" href="alumni.html" aria-current="page">Alumni</a></li>
+      </ul>
+    </div>
+    <button id="themeToggle" aria-label="Toggle dark mode" class="btn btn-outline-primary ms-3">
+  <i class="fas fa-moon"></i> 
+  </div>
+</nav>
+
+<!-- Breadcrumb Navigation -->
+<nav class="breadcrumb-nav" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home me-1"></i>Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Alumni</li>
+    </ol>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section py-2" id="main-content">
+  <div class="container text-center py-5 fade-in">
+    <img src="assets/img/alumni-logo.jpg" alt="Alumni Logo" class="alumni-hero-logo img-fluid">
+    <h1 class="display-4 fw-bold">Alumni Network</h1>
+    <p class="lead fs-3">Stay connected with your alma mater and fellow graduates from around the world</p>
+  </div>
+</section>
+
+
+<!-- Tabs -->
+<section class="py-2 bg-light">
+  <div class="container">
+    <ul class="nav nav-pills justify-content-center mb-4" id="alumniTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="network-tab" data-bs-toggle="tab" data-bs-target="#network" type="button" role="tab" aria-controls="network" aria-selected="true">Alumni Network</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="events-tab" data-bs-toggle="tab" data-bs-target="#events" type="button" role="tab" aria-controls="events" aria-selected="false">Events</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="benefits-tab" data-bs-toggle="tab" data-bs-target="#benefits" type="button" role="tab" aria-controls="benefits" aria-selected="false">Benefits</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="giveback-tab" data-bs-toggle="tab" data-bs-target="#giveback" type="button" role="tab" aria-controls="giveback" aria-selected="false">Give Back</button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<div class="tab-content" id="alumniTabContent">
+  <!-- Alumni Network Tab -->
+  <div class="tab-pane fade show active" id="network" role="tabpanel" aria-labelledby="network-tab">
+    <!-- Featured Alumni -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5 section-title fade-in">Featured Alumni</h2>
+        <div class="row g-4 justify-content-center">
+          <!-- Row 1 - 2 cards -->
+          <div class="col-md-6 col-lg-6 fade-in">
+            <div class="featured-alumni-card">
+              <div class="alumni-content">
+                <div class="alumni-image">
+                  <img src="assets/img/director.jpg" alt="Dr. Adebola Johnson - Senior Software Engineer at TechCorp" class="img-fluid">
+                </div>
+                <div class="alumni-details">
+                  <h5>Dr. Adebola Johnson</h5>
+                  <p class="text-muted small">Class of 2010</p>
+                  <p><i class="fas fa-briefcase me-2"></i> Senior Software Engineer at TechCorp</p>
+                  <p><i class="fas fa-map-marker-alt me-2"></i> Lagos, Nigeria</p>
+                  <button class="btn btn-outline-primary" aria-label="Connect with Dr. Adebola Johnson">Connect</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 fade-in">
+            <div class="featured-alumni-card">
+              <div class="alumni-content">
+                <div class="alumni-image">
+                  <img src="assets/img/head-teacher.jpg" alt="Eng. Chinedu Okoro - Civil Engineer at BuildRight Ltd" class="img-fluid">
+                </div>
+                <div class="alumni-details">
+                  <h5>Eng. Chinedu Okoro</h5>
+                  <p class="text-muted small">Class of 2015</p>
+                  <p><i class="fas fa-briefcase me-2"></i> Civil Engineer at BuildRight Ltd</p>
+                  <p><i class="fas fa-map-marker-alt me-2"></i> Abuja, Nigeria</p>
+                  <button class="btn btn-outline-primary" aria-label="Connect with Eng. Chinedu Okoro">Connect</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Row 2 - 2 cards -->
+          <div class="col-md-6 col-lg-6 fade-in">
+            <div class="featured-alumni-card">
+              <div class="alumni-content">
+                <div class="alumni-image">
+                  <img src="assets/img/principal.jpg" alt="Ms. Funmi Adeyemi - Marketing Director at BrandWorks" class="img-fluid">
+                </div>
+                <div class="alumni-details">
+                  <h5>Ms. Funmi Adeyemi</h5>
+                  <p class="text-muted small">Class of 2018</p>
+                  <p><i class="fas fa-briefcase me-2"></i> Marketing Director at BrandWorks</p>
+                  <p><i class="fas fa-map-marker-alt me-2"></i> London, UK</p>
+                  <button class="btn btn-outline-primary" aria-label="Connect with Ms. Funmi Adeyemi">Connect</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 fade-in">
+            <div class="featured-alumni-card">
+              <div class="alumni-content">
+                <div class="alumni-image">
+                  <img src="assets/img/admin-officer.jpg" alt="Dr. Tunde Williams - University Lecturer" class="img-fluid">
+                </div>
+                <div class="alumni-details">
+                  <h5>Dr. Tunde Williams</h5>
+                  <p class="text-muted small">Class of 2005</p>
+                  <p><i class="fas fa-briefcase me-2"></i> University Lecturer</p>
+                  <p><i class="fas fa-map-marker-alt me-2"></i> Boston, USA</p>
+                  <button class="btn btn-outline-primary" aria-label="Connect with Dr. Tunde Williams">Connect</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- View More Button -->
+        <div class="text-center mt-5 fade-in">
+          <button id="viewMoreAlumni" class="view-more-btn">
+            <i class="fas fa-user-friends me-2"></i>View More Alumni
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="py-5 bg-light fade-in">
+      <div class="container">
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-3">
+            <div class="stats-box text-center p-3">
+              <h2 class="display-5 fw-bold text-primary" data-target="100" id="alumniCount">1+</h2>
+              <p>Alumni Worldwide</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="stats-box text-center p-3">
+              <h2 class="display-5 fw-bold text-primary" data-target="5" id="countriesCount">1+</h2>
+              <p>Countries Represented</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="stats-box text-center p-3">
+              <h2 class="display-5 fw-bold text-primary" data-target="3" id="chaptersCount">1+</h2>
+              <p>Alumni Chapters</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="stats-box text-center p-3">
+              <h2 class="display-5 fw-bold text-primary" data-target="25" id="employmentRate">25%</h2>
+              <p>Employment Rate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Events Tab -->
+  <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
+    <!-- Upcoming Events -->
+    <section class="py-5">
+      <div class="container">
+        <div class="text-center mb-5 fade-in">
+          <h2 class="section-title">Upcoming Alumni Events</h2>
+          <p class="section-subtitle">Reconnect with old friends and make new connections</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 fade-in">
+            <div class="card h-100">
+              <img src="assets/images/events/alumni-reunion.jpg" class="card-img-top" alt="Alumni Networking Event - Annual Alumni Reunion 2026" loading="lazy">
+              <div class="card-body">
+                <h5>Annual Alumni Reunion 2025</h5>
+                <p class="text-muted">March 15, 2026 • School Premese</p>
+                <p>Celebrate 20+ years of excellence with classmates, teachers, and current students.</p>
+                <a href="event-registration.html" class="btn btn-primary mt-2">Register Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 fade-in">
+            <div class="card h-100">
+              <img src="assets/images/events/career-networking.jpg" class="card-img-top" alt="Career Networking Night - Virtual Event" loading="lazy">
+              <div class="card-body">
+                <h5>Career Networking Night</h5>
+                <p class="text-muted">June 2026 • Virtual Event</p>
+                <p>Connect with alumni in various industries for career advice and opportunities.</p>
+                <a href="career-networking.html" class="btn btn-primary mt-2">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Benefits Tab -->
+  <div class="tab-pane fade" id="benefits" role="tabpanel" aria-labelledby="benefits-tab">
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5 section-title fade-in">Alumni Benefits</h2>
+        <div class="row g-4">
+          <div class="col-md-4 fade-in">
+            <div class="values-card">
+              <div class="values-icon">
+                <i class="fas fa-network-wired" aria-hidden="true"></i>
+              </div>
+              <h4>Networking</h4>
+              <p>Access to exclusive networking events and online community with fellow alumni worldwide.</p>
+            </div>
+          </div>
+          <div class="col-md-4 fade-in">
+            <div class="values-card">
+              <div class="values-icon">
+                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+              </div>
+              <h4>Career Support</h4>
+              <p>Job placement assistance, career counseling, and access to mentorship programs.</p>
+            </div>
+          </div>
+          <div class="col-md-4 fade-in">
+            <div class="values-card">
+              <div class="values-icon">
+                <i class="fas fa-hands-helping" aria-hidden="true"></i>
+              </div>
+              <h4>Volunteering</h4>
+              <p>Opportunities to volunteer and give back to current students and the school community.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Give Back Tab -->
+  <div class="tab-pane fade" id="giveback" role="tabpanel" aria-labelledby="giveback-tab">
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5 section-title fade-in">Give Back to Your Alma Mater</h2>
+        <div class="row g-4">
+          <div class="col-md-6 fade-in">
+            <div class="card h-100">
+              <div class="card-body text-center p-4">
+                <div class="values-icon mb-3">
+                  <i class="fas fa-hand-holding-usd" aria-hidden="true"></i>
+                </div>
+                <h4>Donate</h4>
+                <p>Support scholarships, infrastructure development, and educational programs.</p>
+                <a href="donate.html" class="btn btn-primary mt-3">Make a Donation</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 fade-in">
+            <div class="card h-100">
+              <div class="card-body text-center p-4">
+                <div class="values-icon mb-3">
+                  <i class="fas fa-chalkboard-teacher" aria-hidden="true"></i>
+                </div>
+                <h4>Mentor</h4>
+                <p>Share your expertise and experience with current students and recent graduates.</p>
+                <a href="mentor-program.html" class="btn btn-primary mt-3">Become a Mentor</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Registration Form -->
+        <div class="mt-5 pt-5" id="register">
+          <h2 class="section-title text-center">Alumni Registration</h2>
+          <div class="alert-message alert-success" id="successMessage">
+            Thank you for registering! We will contact you soon.
+          </div>
+          <div class="alert-message alert-error" id="errorMessage">
+            Please fix the errors in the form before submitting.
+          </div>
+          
+          <div class="form-container">
+            <form id="alumniRegistration" novalidate>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="fullName">Full Name *</label>
+                    <input type="text" id="fullName" name="fullName" class="form-control" required>
+                    <div class="error-message" id="fullNameError">Please enter your full name</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="graduationYear">Year of Graduation *</label>
+                    <select id="graduationYear" name="graduationYear" class="form-control" required>
+                      <option value="">Select Year</option>
+                      <option value="2025">2025</option>
+                      <option value="2024">2024</option>
+                      <option value="2023">2023</option>
+                      <option value="2022">2022</option>
+                      <option value="2021">2021</option>
+                      <option value="2020">2020</option>
+                      <option value="2019">2019</option>
+                      <option value="2018">2018</option>
+                      <option value="2017">2017</option>
+                      <option value="2016">2016</option>
+                      <option value="2015">2015</option>
+                      <option value="2014">2014</option>
+                      <option value="2013">2013</option>
+                      <option value="2012">2012</option>
+                      <option value="2011">2011</option>
+                      <option value="2010">2010</option>
+                      <option value="2009">2009</option>
+                      <option value="2008">2008</option>
+                      <option value="2007">2007</option>
+                    </select>
+                    <div class="error-message" id="graduationYearError">Please select your graduation year</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="class">Class *</label>
+                    <select id="class" name="class" class="form-control" required>
+                      <option value="">Select Class</option>
+                      <option value="Science">Science</option>
+                      <option value="Art & Humanity">Art & Humanity</option>
+                      <option value="Commercial">Commercial</option>
+                      <option value="Technical">Technical</option>
+                    </select>
+                    <div class="error-message" id="classError">Please select your class</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                    <div class="error-message" id="emailError">Please enter a valid email address</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" class="form-control" required>
+                    <div class="error-message" id="phoneError">Please enter a valid phone number</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="currentJob">Current Job/Role *</label>
+                    <input type="text" id="currentJob" name="currentJob" class="form-control" required>
+                    <div class="error-message" id="currentJobError">Please enter your current job/role</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="location">Current Location</label>
+                    <input type="text" id="location" name="location" class="form-control" placeholder="City, Country">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="contribution">Preferred Contribution</label>
+                    <select id="contribution" name="contribution" class="form-control">
+                      <option value="">Select Option</option>
+                      <option value="mentoring">Mentoring</option>
+                      <option value="donation">Donation</option>
+                      <option value="volunteering">Volunteering</option>
+                      <option value="speaking">Guest Speaking</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">How would you like to contribute to the alumni association?</label>
+                <textarea id="message" name="message" rows="4" class="form-control" placeholder="Tell us about your interests and how you'd like to get involved..."></textarea>
+              </div>
+              
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="newsletter" name="newsletter" checked>
+                <label class="form-check-label" for="newsletter">Subscribe to alumni newsletter</label>
+              </div>
+              
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
+                <label class="form-check-label" for="terms">I agree to the <a href="terms.html">terms and conditions</a> *</label>
+                <div class="error-message" id="termsError">You must agree to the terms and conditions</div>
+              </div>
+              
+              <button type="submit" class="submit-btn" id="submitBtn">
+                <span id="submitText">Submit Registration</span>
+                <span id="submitSpinner" style="display: none;">
+                  <span class="spinner-border spinner-border-sm me-2"></span>Processing...
+                </span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- Newsletter -->
+<section class="py-5">
+  <div class="container">
+    <div class="newsletter-box mx-auto fade-in">
+      <h3 class="fw-bold">Stay Connected</h3>
+      <p>Join our alumni newsletter to stay updated on events, news, and opportunities</p>
+      <form id="newsletterForm" class="d-flex flex-column flex-md-row gap-3 justify-content-center mt-4">
+        <input type="email" class="form-control" placeholder="Enter your email" required style="max-width: 300px;" aria-label="Email for newsletter subscription">
+        <button type="submit" class="btn btn-warning btn-lg">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <h4 class="mb-4">Success & Unity Schools, Jos</h4>
+        <p>Education for Entrepreneurship.</p>
+        <div class="mt-4">
+          <a href="https://facebook.com/sussjos" class="btn btn-outline-light me-2" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/sussjos" class="btn btn-outline-light me-2" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com/sussjos" class="btn btn-outline-light me-2" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com/company/sussjos" class="btn btn-outline-light" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <h5 class="mb-4">Quick Links</h5>
+        <div class="row">
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="index.html"><i class="fas fa-chevron-right me-2"></i>Home</a></li>
+              <li class="mb-2"><a href="portal.html"><i class="fas fa-chevron-right me-2"></i>Portal</a></li>
+              <li class="mb-2"><a href="library.html"><i class="fas fa-chevron-right me-2"></i>Library</a></li>
+              <li class="mb-2"><a href="news-events.html"><i class="fas fa-chevron-right me-2"></i>News & Events</a></li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="academics.html"><i class="fas fa-chevron-right me-2"></i>Academics</a></li>
+              <li class="mb-2"><a href="about.html"><i class="fas fa-chevron-right me-2"></i>About</a></li>
+              <li class="mb-2"><a href="contact.html"><i class="fas fa-chevron-right me-2"></i>Contact</a></li>
+              <li class="mb-2"><a href="alumni.html"><i class="fas fa-chevron-right me-2"></i>Alumni</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <h5 class="mb-4">Get In Touch</h5>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Bauchi Ring Road, Kyan-Rikkos, Jos-North, Plateau State, Nigeria</p>
+        <p><i class="fas fa-phone me-2"></i>+234 807 329 5314</p>
+        <p><i class="fas fa-envelope me-2"></i>info@sussjos.com</p>
+        <p><i class="fas fa-clock me-2"></i>Mon - Fri: 8:00 AM - 4:00 PM</p>
+      </div>
+    </div>
+    <hr class="mt-5 mb-4" style="border-color: rgba(255,255,255,0.1);">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p class="mb-0">&copy; <span id="current-year"></span> Success & Unity Schools Jos. All rights reserved.</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <a href="sosa-donation.html" class="text-light">Donated by SOSA 2015 SET</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Structured Data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Alumni Network - Success & Unity Schools",
+  "description": "Stay connected with your alma mater and fellow graduates from Success & Unity Schools, Jos",
+  "url": "https://sussjos.com/alumni.html",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "Success & Unity Schools Alumni Association",
+    "description": "Official alumni network for Success & Unity Schools graduates",
+    "url": "https://sussjos.com/alumni.html",
+    "member": [
+      {
+        "@type": "Person",
+        "name": "Dr. Adebola Johnson",
+        "alumniOf": "Success & Unity Schools",
+        "jobTitle": "Senior Software Engineer",
+        "worksFor": "TechCorp"
+      },
+      {
+        "@type": "Person",
+        "name": "Eng. Chinedu Okoro",
+        "alumniOf": "Success & Unity Schools",
+        "jobTitle": "Civil Engineer",
+        "worksFor": "BuildRight Ltd"
+      }
+    ]
+  }
+}
+</script>
+
+<script>
+// Main JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+    // Update current year
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+    
+    // Back to top functionality
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+        backToTop.style.display = window.scrollY > 300 ? 'block' : 'none';
+    });
+    backToTop.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    
+    // Tab switching functionality
+    const triggerTabList = [].slice.call(document.querySelectorAll('#alumniTabs button'));
+    triggerTabList.forEach(function (triggerEl) {
+        const tabTrigger = new bootstrap.Tab(triggerEl);
+        triggerEl.addEventListener('click', function (event) {
+            event.preventDefault();
+            tabTrigger.show();
+            
+            // Update URL hash
+            const targetId = this.getAttribute('data-bs-target').substring(1);
+            history.pushState(null, null, `#${targetId}`);
+        });
+    });
+    
+    // Check for hash in URL to activate specific tab
+    const hash = window.location.hash.substring(1);
+    if (hash && ['network', 'events', 'benefits', 'giveback'].includes(hash)) {
+        const tab = document.querySelector(`button[data-bs-target="#${hash}"]`);
+        if (tab) {
+            bootstrap.Tab.getOrCreateInstance(tab).show();
+        }
+    }
+    
+    // Alumni registration form submission
+    const alumniForm = document.getElementById('alumniRegistration');
+    const submitBtn = document.getElementById('submitBtn');
+    const submitText = document.getElementById('submitText');
+    const submitSpinner = document.getElementById('submitSpinner');
+    const successMessage = document.getElementById('successMessage');
+    const errorMessage = document.getElementById('errorMessage');
+    
+    if (alumniForm) {
+        // Form validation
+        function validateField(field, errorElement, validationFn) {
+            const value = field.value.trim();
+            const isValid = validationFn(value);
+            
+            if (!isValid) {
+                field.closest('.form-group').classList.add('error');
+                errorElement.style.display = 'block';
+                return false;
+            } else {
+                field.closest('.form-group').classList.remove('error');
+                errorElement.style.display = 'none';
+                return true;
+            }
+        }
+        
+        // Validation functions
+        const validations = {
+            fullName: (value) => value.length >= 2,
+            graduationYear: (value) => value !== '',
+            class: (value) => value !== '',
+            email: (value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value),
+            phone: (value) => /^[\d\s\-\+\(\)]{10,}$/.test(value),
+            currentJob: (value) => value.length >= 2,
+            terms: (value) => document.getElementById('terms').checked
+        };
+        
+        // Real-time validation
+        const fields = ['fullName', 'graduationYear', 'class', 'email', 'phone', 'currentJob'];
+        fields.forEach(fieldId => {
+            const field = document.getElementById(fieldId);
+            const errorElement = document.getElementById(`${fieldId}Error`);
+            
+            if (field) {
+                field.addEventListener('blur', () => {
+                    validateField(field, errorElement, validations[fieldId]);
+                });
+                
+                field.addEventListener('input', () => {
+                    if (field.classList.contains('error')) {
+                        validateField(field, errorElement, validations[fieldId]);
+                    }
+                });
+            }
+        });
+        
+        // Terms checkbox validation
+        const termsCheckbox = document.getElementById('terms');
+        const termsError = document.getElementById('termsError');
+        termsCheckbox.addEventListener('change', () => {
+            validateField(termsCheckbox, termsError, validations.terms);
+        });
+        
+        // Form submission
+        alumniForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            // Validate all fields
+            let isValid = true;
+            
+            fields.forEach(fieldId => {
+                const field = document.getElementById(fieldId);
+                const errorElement = document.getElementById(`${fieldId}Error`);
+                if (!validateField(field, errorElement, validations[fieldId])) {
+                    isValid = false;
+                }
+            });
+            
+            // Validate terms
+            if (!validateField(termsCheckbox, termsError, validations.terms)) {
+                isValid = false;
+            }
+            
+            if (!isValid) {
+                errorMessage.style.display = 'block';
+                successMessage.style.display = 'none';
+                return;
+            }
+            
+            // Show loading state
+            submitText.style.display = 'none';
+            submitSpinner.style.display = 'inline';
+            submitBtn.disabled = true;
+            
+            try {
+                // Sanitize inputs
+                const formData = new FormData(alumniForm);
+                const sanitizedData = {};
+                formData.forEach((value, key) => {
+                    sanitizedData[key] = sanitizeInput(value);
+                });
+                
+                // In a real application, you would send this data to your server
+                // For now, we'll simulate an API call
+                await new Promise(resolve => setTimeout(resolve, 1500));
+                
+                // Show success message
+                successMessage.style.display = 'block';
+                errorMessage.style.display = 'none';
+                
+                // Reset form
+                alumniForm.reset();
+                
+                // Scroll to success message
+                successMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                
+            } catch (error) {
+                errorMessage.textContent = 'An error occurred. Please try again later.';
+                errorMessage.style.display = 'block';
+                successMessage.style.display = 'none';
+            } finally {
+                // Reset button state
+                submitText.style.display = 'inline';
+                submitSpinner.style.display = 'none';
+                submitBtn.disabled = false;
+            }
+        });
+    }
+    
+    // Newsletter form submission
+    const newsletterForm = document.getElementById('newsletterForm');
+    if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const emailInput = this.querySelector('input[type="email"]');
+            const email = emailInput.value.trim();
+            
+            if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                alert('Thank you for subscribing to our newsletter!');
+                this.reset();
+            } else {
+                alert('Please enter a valid email address.');
+            }
+        });
+    }
+    
+    // Connect buttons functionality
+    document.querySelectorAll('.btn-outline-primary').forEach(button => {
+        if (button.textContent === 'Connect') {
+            button.addEventListener('click', function() {
+                const alumniCard = this.closest('.featured-alumni-card');
+                const alumniName = alumniCard.querySelector('h5').textContent;
+                alert(`Connection request sent to ${alumniName}. They will be notified of your interest.`);
+            });
+        }
+    });
+    
+    // View More Alumni functionality
+    const viewMoreBtn = document.getElementById('viewMoreAlumni');
+    if (viewMoreBtn) {
+        viewMoreBtn.addEventListener('click', function() {
+            // In a real application, this would load more alumni or redirect to a full alumni directory
+            alert('This would show more alumni profiles. You could implement: \n1. Loading more cards via AJAX\n2. Redirecting to a full alumni directory page\n3. Expanding to show all alumni in this section');
+            
+            // Example: Redirect to alumni directory page
+            // window.location.href = 'alumni-directory.html';
+            
+            // Example: Load more cards via AJAX (simulated)
+            const button = this;
+            const originalText = button.innerHTML;
+            button.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Loading...';
+            button.disabled = true;
+            
+            setTimeout(() => {
+                alert('More alumni would be loaded here in a real implementation.');
+                button.innerHTML = originalText;
+                button.disabled = false;
+            }, 1500);
+        });
+    }
+    
+    // Statistics counter animation - Updated to match your lower values
+    function animateCounter(element) {
+        const target = parseInt(element.getAttribute('data-target'));
+        const currentText = element.textContent;
+        let start = 0;
+        
+        // Parse current value (remove + or %)
+        if (currentText.includes('+')) {
+            start = parseInt(currentText.replace('+', '')) || 0;
+        } else if (currentText.includes('%')) {
+            start = parseInt(currentText.replace('%', '')) || 0;
+        } else {
+            start = parseInt(currentText) || 0;
+        }
+        
+        const duration = 2000; // 2 seconds
+        const increment = (target - start) / (duration / 16); // 60fps
+        
+        const timer = setInterval(() => {
+            start += increment;
+            if ((increment > 0 && start >= target) || (increment < 0 && start <= target)) {
+                start = target;
+                clearInterval(timer);
+            }
+            
+            if (element.id === 'employmentRate') {
+                element.textContent = Math.floor(start) + '%';
+            } else {
+                element.textContent = Math.floor(start) + '+';
+            }
+        }, 16);
+    }
+    
+    // Start counter animation when statistics section is visible
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                ['alumniCount', 'countriesCount', 'chaptersCount', 'employmentRate'].forEach(id => {
+                    const element = document.getElementById(id);
+                    if (element) animateCounter(element);
+                });
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+    
+    const statsSection = document.querySelector('.bg-light');
+    if (statsSection) observer.observe(statsSection);
+});
+
+// Helper function to sanitize input
+function sanitizeInput(input) {
+    const div = document.createElement('div');
+    div.textContent = input;
+    return div.innerHTML;
+}
+
+// Helper function for fade-in animation
+document.addEventListener('DOMContentLoaded', function() {
+    const fadeElements = document.querySelectorAll('.fade-in');
+    
+    const fadeObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, { threshold: 0.1 });
+    
+    fadeElements.forEach(element => {
+        element.style.opacity = '0';
+        element.style.transform = 'translateY(20px)';
+        element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        fadeObserver.observe(element);
+    });
+});
+</script>
+<script>
+  // Optional: Respect user's system preference
+  if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+  }
+
+  // Example toggle button handler
+  document.getElementById('themeToggle')?.addEventListener('click', () => {
+    if (document.documentElement.hasAttribute('data-theme')) {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.theme = 'light';
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.theme = 'dark';
+    }
+  });
+</script>
+</body>
+</html>

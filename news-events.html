@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Events | Success & Unity Schools</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+    <!-- Top Bar - Sticky -->
+    <div class="top-bar d-none d-lg-block">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <a href="tel:+2348123456789"><i class="fas fa-phone me-1"></i> +2348123456789</a>
+                    <a href="mailto:info@suss.com"><i class="fas fa-envelope me-1"></i> info@suss.com</a>
+                </div>
+                <div>
+                    <a href="#"><i class="fas fa-building me-1"></i> Alumni</a>
+                    <a href="#"><i class="fas fa-user-circle me-1"></i> Portal</a>
+                    <a href="#"><span class="apply-badge">Apply Now</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation - Sticky with logo -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://pink-solid-aardvark-938.mypinata.cloud/ipfs/bafybeihikjcm7bcl2ivj7u7b63k6w72s3fxvm43clo65j3vusdftxw6uae" alt="Success & Unity School Logo" class="school-logo">
+                <div>
+                    <div>Success & Unity</div>
+                    <div style="font-size: 1.2rem;"><span>School Jos</span></div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="academicsDropdown" role="button" data-bs-toggle="dropdown">
+                           Academics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Primary School</a></li>
+                            <li><a class="dropdown-item" href="#">Secondary School</a></li>
+                            <li><a class="dropdown-item" href="#">Academic Calendar</a></li>
+                            <li><a class="dropdown-item" href="#">Examinations</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news-events.html">News & Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- News Hero Section -->
+    <section class="news-hero">
+        <div class="container">
+            <h1>News & Events</h1>
+            <p>Stay updated with the latest happenings, achievements, and upcoming events at Success & Unity School Jos.</p>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="#news" class="btn btn-light btn-lg">Latest News</a>
+                <a href="#events" class="btn btn-outline-light btn-lg">Upcoming Events</a>
+                <a href="#calendar" class="btn btn-outline-light btn-lg">School Calendar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="py-5" id="news">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Latest News & Announcements</h2>
+                <p class="section-subtitle">Stay informed about school activities, achievements, and important announcements</p>
+            </div>
+            
+            <!-- News Filter -->
+            <div class="news-filter">
+                <div class="text-center mb-3">
+                    <h5 class="mb-3">Filter by Category:</h5>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <button class="news-filter-btn active" data-filter="all">All News</button>
+                        <button class="news-filter-btn" data-filter="academic">Academic</button>
+                        <button class="news-filter-btn" data-filter="sports">Sports</button>
+                        <button class="news-filter-btn" data-filter="events">Events</button>
+                        <button class="news-filter-btn" data-filter="achievements">Achievements</button>
+                        <button class="news-filter-btn" data-filter="announcements">Announcements</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- News Grid -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 news-item fade-in" data-category="achievements">
+                    <div class="news-card">
+                        <img src="/assets/img/annivery1.jpg" alt="Graduation Ceremony" class="news-img">
+                        <div class="news-content">
+                            <div class="news-date">March 15, 2025</div>
+                            <span class="news-category">Achievements</span>
+                            <h3 class="news-title">Class of 2025 Graduation Ceremony</h3>
+                            <p>Our annual graduation ceremony was held with great pomp and celebration. 150 students graduated with honors.</p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 news-item fade-in" data-category="sports">
+                    <div class="news-card">
+                        <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Sports Competition" class="news-img">
+                        <div class="news-content">
+                            <div class="news-date">March 10, 2025</div>
+                            <span class="news-category">Sports</span>
+                            <h3 class="news-title">Inter-House Sports Competition Results</h3>
+                            <p>Green House emerged victorious in our annual inter-house sports competition. See all the results and highlights.</p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 news-item fade-in" data-category="academic">
+                    <div class="news-card">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Science Fair" class="news-img">
+                        <div class="news-content">
+                            <div class="news-date">March 5, 2025</div>
+                            <span class="news-category">Academic</span>
+                            <h3 class="news-title">Annual Science Fair & Exhibition</h3>
+                            <p>Students showcased innovative projects at our science fair. Several projects received recognition at state level.</p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 news-item fade-in" data-category="events">
+                    <div class="news-card">
+                        <img src="/assets/img/annivery1.jpg" alt="Cultural Day" class="news-img">
+                        <div class="news-content">
+                            <div class="news-date">February 28, 2025</div>
+                            <span class="news-category">Events</span>
+                            <h3 class="news-title">Cultural Day Celebration 2025</h3>
+                            <p>Our school celebrated Cultural Day with traditional attire, dances, and foods from different ethnic groups in Nigeria.</p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 news-item fade-in" data-category="announcements">
+                    <div class="news-card">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Term Resumption" class="news-img">
+                        <div class="news-content">
+                            <div class="news-date">February 20, 2025</div>
+                            <span class="news-category">Announcements</span>
+                            <h3 class="news-title">Third Term Resumption Notice</h3>
+                            <p>All students are to resume for the third term on April 10, 2025. Please check the school portal for details.</p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 news-item fade-in" data-category="academic">
+                    <div class="news-card">
+                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Debate Competition" class="news-img">
+                        <div class="news-content">
+                            <div class="news-date">February 15, 2025</div>
+                            <span class="news-category">Academic</span>
+                            <h3 class="news-title">Debate Team Wins Regional Competition</h3>
+                            <p>Our senior debate team won first place in the Northern Region Secondary Schools Debate Championship.</p>
+                            <a href="#" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-primary btn-lg">View All News</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section class="events-section" id="events">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Upcoming Events</h2>
+                <p class="section-subtitle">Mark your calendar for these important school events and activities</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="event-card fade-in">
+                        <div class="event-date">
+                            <div class="event-day">15</div>
+                            <div class="event-month">Apr</div>
+                        </div>
+                        <div class="event-details">
+                            <h3 class="event-title">Parents-Teachers Association Meeting</h3>
+                            <p><i class="fas fa-clock me-2 text-secondary"></i> 10:00 AM - 12:00 PM</p>
+                            <p><i class="fas fa-map-marker-alt me-2 text-secondary"></i> School Assembly Hall</p>
+                            <p>Quarterly PTA meeting to discuss school development and student welfare. All parents are encouraged to attend.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Add to Calendar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="event-card fade-in">
+                        <div class="event-date">
+                            <div class="event-day">22</div>
+                            <div class="event-month">Apr</div>
+                        </div>
+                        <div class="event-details">
+                            <h3 class="event-title">Career Guidance Seminar</h3>
+                            <p><i class="fas fa-clock me-2 text-secondary"></i> 9:00 AM - 2:00 PM</p>
+                            <p><i class="fas fa-map-marker-alt me-2 text-secondary"></i> School Auditorium</p>
+                            <p>Professional career counselors will guide SS3 students on university admissions and career choices.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Add to Calendar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="event-card fade-in">
+                        <div class="event-date">
+                            <div class="event-day">30</div>
+                            <div class="event-month">Apr</div>
+                        </div>
+                        <div class="event-details">
+                            <h3 class="event-title">Mathematics Olympiad Competition</h3>
+                            <p><i class="fas fa-clock me-2 text-secondary"></i> 8:00 AM - 1:00 PM</p>
+                            <p><i class="fas fa-map-marker-alt me-2 text-secondary"></i> Mathematics Department</p>
+                            <p>Annual mathematics competition for JSS2 and SS1 students. Prizes await the top performers.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Add to Calendar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="event-card fade-in">
+                        <div class="event-date">
+                            <div class="event-day">05</div>
+                            <div class="event-month">May</div>
+                        </div>
+                        <div class="event-details">
+                            <h3 class="event-title">World Environment Day Celebration</h3>
+                            <p><i class="fas fa-clock me-2 text-secondary"></i> All Day</p>
+                            <p><i class="fas fa-map-marker-alt me-2 text-secondary"></i> School Premises</p>
+                            <p>Tree planting exercise and environmental awareness programs for all students and staff.</p>
+                            <a href="#" class="btn btn-sm btn-primary">Add to Calendar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-primary btn-lg">View All Events</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- School Calendar Section -->
+    <section class="calendar-section" id="calendar">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">School Calendar 2025</h2>
+                <p class="section-subtitle">Important dates and academic schedule for the current school year</p>
+            </div>
+            
+            <div class="calendar-month">
+                <div class="calendar-header">
+                    <h3 class="mb-0">April 2025</h3>
+                    <div>
+                        <button class="btn btn-sm btn-outline-primary me-2"><i class="fas fa-chevron-left"></i></button>
+                        <button class="btn btn-sm btn-outline-primary"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                
+                <div class="calendar-days">
+                    <div class="calendar-day-name">Sun</div>
+                    <div class="calendar-day-name">Mon</div>
+                    <div class="calendar-day-name">Tue</div>
+                    <div class="calendar-day-name">Wed</div>
+                    <div class="calendar-day-name">Thu</div>
+                    <div class="calendar-day-name">Fri</div>
+                    <div class="calendar-day-name">Sat</div>
+                    
+                    <!-- Calendar days -->
+                    <div class="calendar-day">30</div>
+                    <div class="calendar-day">31</div>
+                    <div class="calendar-day">1</div>
+                    <div class="calendar-day">2</div>
+                    <div class="calendar-day">3</div>
+                    <div class="calendar-day">4</div>
+                    <div class="calendar-day">5</div>
+                    
+                    <div class="calendar-day">6</div>
+                    <div class="calendar-day">7</div>
+                    <div class="calendar-day">8</div>
+                    <div class="calendar-day">9</div>
+                    <div class="calendar-day">10</div>
+                    <div class="calendar-day event" title="Term Resumption">11</div>
+                    <div class="calendar-day">12</div>
+                    
+                    <div class="calendar-day">13</div>
+                    <div class="calendar-day">14</div>
+                    <div class="calendar-day event" title="PTA Meeting">15</div>
+                    <div class="calendar-day">16</div>
+                    <div class="calendar-day">17</div>
+                    <div class="calendar-day">18</div>
+                    <div class="calendar-day">19</div>
+                    
+                    <div class="calendar-day">20</div>
+                    <div class="calendar-day">21</div>
+                    <div class="calendar-day event" title="Career Seminar">22</div>
+                    <div class="calendar-day">23</div>
+                    <div class="calendar-day">24</div>
+                    <div class="calendar-day">25</div>
+                    <div class="calendar-day">26</div>
+                    
+                    <div class="calendar-day">27</div>
+                    <div class="calendar-day">28</div>
+                    <div class="calendar-day">29</div>
+                    <div class="calendar-day event" title="Math Olympiad">30</div>
+                    <div class="calendar-day">1</div>
+                    <div class="calendar-day">2</div>
+                    <div class="calendar-day">3</div>
+                </div>
+                
+                <div class="mt-4">
+                    <h5>Legend:</h5>
+                    <div class="d-flex flex-wrap gap-3">
+                        <div class="d-flex align-items-center">
+                            <div class="calendar-day event me-2" style="width: 20px; height: 20px;"></div>
+                            <span>School Event</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="calendar-day today me-2" style="width: 20px; height: 20px;"></div>
+                            <span>Today</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Download Calendar</h5>
+                            <p class="card-text">Download the complete school calendar for 2025 academic year.</p>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-download me-2"></i> Download PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Subscribe to Updates</h5>
+                            <p class="card-text">Get notified about upcoming events and important announcements.</p>
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your email address">
+                                <button class="btn btn-primary" type="button">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="mb-4">Success & Unity Schools, Jos</h4>
+                    <p>Excellence in Education Since 2005. Nurturing future leaders with quality education, moral values, and innovative learning approaches.</p>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-outline-light me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-outline-light me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-outline-light me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-light"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="mb-4">Quick Links</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="#"><i class="fas fa-chevron-right me-2"></i>Home</a></li>
+                                <li class="mb-2"><a href="#"><i class="fas fa-chevron-right me-2"></i>Portal</a></li>
+                                <li class="mb-2"><a href="#"><i class="fas fa-chevron-right me-2"></i>Library</a></li>
+                                <li class="mb-2"><a href="#"><i class="fas fa-chevron-right me-2"></i>News & Events</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="#"><i class="fas fa-chevron-right me-2"></i>Academics</a></li>
+                                <li class="mb-2"><a href="#"><i class="fas fa-chevron-right me-2"></i>About</a></li>
+                                <li class="mb-2"><a href="#"><i class="fas fa-chevron-right me-2"></i>Contact</a></li>
+                                <li class="mb-2"><a href="#"><i class="fas fa-chevron-right me-2"></i>Alumni</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="mb-4">Get In Touch</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>Bauchi Ring Road, Kyan-Rikkos, Jos-North, Plateau State, Nigeria</p>
+                    <p><i class="fas fa-phone me-2"></i>+234 807 329 5314</p>
+                    <p><i class="fas fa-envelope me-2"></i>info@sussjos.com</p>
+                    <p><i class="fas fa-clock me-2"></i>Mon - Fri: 8:00 AM - 4:00 PM</p>
+                </div>
+            </div>
+            <hr class="mt-5 mb-4" style="border-color: rgba(255,255,255,0.1);">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; <span id="current-year"></span> Success & Unity Schools Jos. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-light">Donated by SOSA 2015 SET</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
